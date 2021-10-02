@@ -1,6 +1,7 @@
 .resources{
-display: flex;
-align-items: center;
-flex-direction: column;
-padding-bottom: 217px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 217px;
+  padding-top: 100px;
 }
