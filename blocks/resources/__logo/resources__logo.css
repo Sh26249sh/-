@@ -1,3 +1,10 @@
 .resources__logo{
   text-decoration: none;
+  opacity: 1;
+  transition: opasity 0.1s linear;
+  margin: 0;
+  padding: 0;
+}
+.resources__logo:hover{
+  opacity: 0.3;
 }

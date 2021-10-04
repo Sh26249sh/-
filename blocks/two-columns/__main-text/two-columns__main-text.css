@@ -4,4 +4,6 @@
   min-width: 784px;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
