@@ -15,7 +15,7 @@
           <a class="header__link" href="#">Узнать →</a>
         </p>
         <img class="header__main-illustration" src="images/header-image.png" alt="картинка">
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -69,9 +69,9 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
-          <div class="video-iframes">
-            <iframe class="video-iframe"   src="https://www.youtube.com/embed/arj7oStGLkU"  allowfullscreen> </iframe>
-            <iframe class="video-iframe"   src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen> </iframe>
+          <div class="video__iframes">
+            <iframe class="video__iframe"   src="https://www.youtube.com/embed/arj7oStGLkU"  allowfullscreen> </iframe>
+            <iframe class="video__iframe"   src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen> </iframe>
           </div>
         </section>
         <section class="oakley">
@@ -144,15 +144,15 @@
             <h4 class="khan__quote-author">Джордж Лукас</h4>
             <h4 class="khan__quote-author-subtitle">Кинорежиссер, продюсер</h4>
             <div class="khan__book-container">
-              <img src="images/khan-book.jpg" alt="khan" class="khan__book-pic">
+              <img src="images/khan-book.jpg" alt="Хан" class="khan__book-pic">
               <a href="#" class="khan__buy-link">Купить книгу  →</a>
             </div>
           </div>
         </section>
         <section class="kaufman">
-          <h2 class=" section-titles section-title_theme_dark">Принципы обучения</h2>
+          <h2 class=" section-title section-title_theme_dark">Принципы обучения</h2>
           <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-          <img  class="kaufman____triangle" src="images/triangle.svg" alt="Треугольник">
+          <img  class="kaufman__triangle rotation" src="images/triangle.svg" alt="Треугольник">
           <div class="table">
             <div class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -208,36 +208,36 @@
           </div>
         </section>
       </main>
-      <section class="footer">
+      <footer class="footer">
         <div class="footer__columns">
-          <div class="footer__column_content_copyright">
-            <img class=" logo_place_footer" src="images/logo_place_footer.svg" alt="Яндекс практикум-лого">
+          <div class="footer__column footer__column_content_copyright">
+            <img class="logo logo_place_footer" src="images/logo_white.svg" alt="Яндекс практикум-лого">
             <p class="footer__author" > © Виктор Абанькин </p>
           </div>
-          <div class="footer__column">
+          <nav class="footer__column footer__column_content_info">
             <h2 class="footer__column-heading">О Практикуме</h2>
             <ul class="footer__column-links">
-              <li class="footer__column-link">Главная</li>
-              <li class="footer__column-link">Концепция</li>
-              <li class="footer__column-link">Наставники</li>
+              <li class="footer__column-links-item"><a class="footer__column-link" href="#">Главная</a></li>
+              <li class="footer__column-links-item"><a class="footer__column-link" href="#">Концепция</a></li>
+              <li class="footer__column-links-item"><a class="footer__column-link" href="#">Наставники</a></li>
             </ul>
-          </div>
-          <div>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Соцсети</h2>
             <ul class="footer__column-links">
-              <li class="footer__column-link">
-                <a href="#"  class="footer__column-link"><img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Facebook"> Facebook</a>
+              <li class="footer__column-links-item">
+                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Фейсбук"> Facebook</a>
               </li>
-              <li class="footer__column-link">
-                <a href="#"  class="footer__column-link"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="VK"> ВКонтакте</a>
+              <li class="footer__column-links-item">
+                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="ВК"> ВКонтакте</a>
               </li>
-              <li class="footer__column-link">
-                <a href="#"  class="footer__column-link"><img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Instagram"> Instagram</a>
+              <li class="footer__column-links-item">
+                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Инстаграм"> Instagram</a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
-      </section>
+      </footer>
     </div>
   </body>
 </html>

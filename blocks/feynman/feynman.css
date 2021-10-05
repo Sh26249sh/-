@@ -2,7 +2,7 @@
   background-color: #f2f2f2;
   margin: 0;
   padding: 0;
-  height: 890px;
+  min-height: 790px;
   z-index: 0;
   position: relative;
   display: flex;
